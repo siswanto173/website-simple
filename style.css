@@ -7,7 +7,7 @@
   margin: 30px auto;
   padding: 10px;
   width: 428px;
-  background-color: gray;
+  /* background-color: gray; */
   box-sizing: border-box;
 }
 
@@ -38,4 +38,49 @@ a {
 img {
   width: 75px;
   border-radius: 50%;
+}
+
+.beranda {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profil {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profil img {
+  width: 50px;
+  margin-right: 5px;
+}
+
+.about {
+  font-size: 30px;
+}
+
+.content img {
+  width: 400px;
+  height: 450px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.sentiment {
+  display: flex;
+}
+
+.sentiment img {
+  width: 40px;
+}
+
+.sentiment,
+ul,
+li {
+  display: flex;
+  padding-right: 10px;
+  align-items: center;
 }
