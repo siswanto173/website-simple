@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 30px auto;
+  padding: 10px;
+  width: 428px;
+  background-color: gray;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 2em;
+}
+
+header,
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.card {
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  width: 75px;
+  border-radius: 50%;
+}
